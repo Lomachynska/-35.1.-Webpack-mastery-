@@ -1,0 +1,49 @@
+{
+  "name": "-35.1.-webpack-mastery-",
+  "version": "1.0.0",
+  "description": "ДЗ 35.1. Webpack mastery: Від препроцесорів до аналізатора",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "author": "Olga",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lomachynska/-35.1.-Webpack-mastery-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lomachynska/-35.1.-Webpack-mastery-/issues"
+  },
+  "homepage": "https://github.com/Lomachynska/-35.1.-Webpack-mastery-#readme",
+  "keywords": [],
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-webpack-plugin": "^4.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "less": "^4.2.1",
+    "less-loader": "^12.2.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.83.0",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-bundle-analyzer": "^4.10.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
